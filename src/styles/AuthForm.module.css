@@ -1,0 +1,53 @@
+.form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.input__container {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.input__container > input {
+    width: 80%;
+    height: 55px;
+    padding: 10px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 25px;
+}
+
+
+.form__error {
+    position: absolute;
+    bottom: -25px;
+    color: rgb(182, 181, 181);
+}
+
+.form > button {
+    width: 80%;
+    height: 55px;
+    border-radius: 2px;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 25px;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.form > button:active {
+    border: 1px solid #555;
+}
